@@ -1,0 +1,72 @@
+.skill-icon {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  border-radius: 15px;
+  background: linear-gradient(
+    145deg,
+    rgba(139, 92, 246, .20),
+    rgba(34, 211, 238, .08)
+  );
+
+  border: 1px solid rgba(255,255,255,.10);
+
+  box-shadow:
+    inset 0 0 20px rgba(139,92,246,.08),
+    0 8px 25px rgba(0,0,0,.25);
+}
+
+.code-icon {
+  font-family: monospace;
+  font-size: 23px;
+  font-weight: 900;
+  color: #c4b5fd;
+}
+
+.css-icon {
+  font-size: 32px;
+  font-weight: 900;
+  color: #67e8f9;
+}
+
+.js-icon {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 900;
+  color: #f8fafc;
+}
+
+.server-icon {
+  flex-direction: column;
+  gap: 4px;
+}
+
+.server-icon span {
+  width: 28px;
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(
+    90deg,
+    #8b5cf6,
+    #22d3ee
+  );
+  box-shadow: 0 0 8px rgba(34,211,238,.3);
+}
+
+.bridge-icon {
+  font-size: 38px;
+  color: #a78bfa;
+  transform: rotate(45deg);
+}
+
+.phantom-icon {
+  font-size: 30px;
+  color: #67e8f9;
+  text-shadow:
+    0 0 10px rgba(34,211,238,.7),
+    0 0 25px rgba(139,92,246,.4);
+}
